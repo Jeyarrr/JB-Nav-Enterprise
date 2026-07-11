@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JB Nav Enterprise - Premium Party & Catering Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-font-sans">
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-flex-group">
+                <div class="nav-brand">
+                    <div class="logo-container">
+                        <img src="img/logo.png" alt="JB Nav Enterprise Logo" class="nav-logo-img">
+                        <span class="nav-brand-text">JB Nav Enterprise</span>
+                    </div>
+                </div>
+                <div class="nav-links-desktop">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#book" class="book-now-btn">Book Now!</a>
+                </div>
+                <div class="nav-toggle-mobile">
+                    <button id="menu-btn" class="menu-btn"><i class="fas fa-bars menu-icon"></i></button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu">
+                <div class="mobile-menu-content">
+                    <a href="#home" class="mobile-nav-item">Home</a>
+                    <a href="#services" class="mobile-nav-item">Services</a>
+                    <a href="#gallery" class="mobile-nav-item">Gallery</a>
+                    <a href="#reviews" class="mobile-nav-item">Reviews</a>
+                    <a href="#contact" class="mobile-nav-item">Contact</a>
+                    <a href="#book" class="mobile-book-now-btn">Book Now!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-glass">
+            <span class="hero-eyebrow">Est. 2010 · Dasmariñas, Cavite</span>
+            <h1 class="hero-title">Your Dream Event<br>Starts Here</h1>
+            <p class="hero-subtitle">Premium catering and party services that turn your special occasions into unforgettable experiences.</p>
+            <div class="hero-buttons-group">
+                <a href="#contact" class="hero-button-primary">Book Now</a>
+                <a href="#services" class="hero-button-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-glass">
+                <div class="about-content-wrapper">
+                    <div class="about-image-column reveal reveal-left">
+                        <div class="about-image-frame">
+                            <img src="img/logo.png" alt="About JB Nav Enterprise" class="about-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23F1E7D0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Fraunces, serif%22 font-size=%2230%22 fill=%22%23B8912F%22 text-anchor=%22middle%22 dy=%22.3em%22%3EJB Nav%3C/text%3E%3C/svg%3E'">
+                        </div>
+                    </div>
+                    <div class="about-text-column reveal reveal-right">
+                        <span class="section-eyebrow">Who We Are</span>
+                        <h2 class="about-title">About JB Nav Enterprise</h2>
+                        <p class="about-paragraph">Since 2010, JB Nav Enterprise has been creating magical moments for clients across the region. Our passion for excellence and attention to detail sets us apart in the event planning industry.</p>
+                        <p class="about-paragraph">We specialize in transforming ordinary spaces into extraordinary venues, providing top-notch catering services, and ensuring every aspect of your event is flawless.</p>
+                        <div class="about-features-group">
+                            <div class="about-feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span>100+ Successful Events</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span>Professional Staff</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span>Customized Packages</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+                <span class="section-divider" aria-hidden="true"></span>
+                <p class="section-subtitle">We offer comprehensive event solutions tailored to your specific needs and preferences.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-utensils service-icon"></i>
+                    </div>
+                    <h3 class="service-card-title">Premium Catering</h3>
+                    <p class="service-card-description">From gourmet meals to buffet spreads, our culinary team creates delicious menus that impress your guests.</p>
+                    <ul class="service-features-list">
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Custom menu planning
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Dietary accommodations
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Professional serving staff
+                        </li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more">Learn more →</a>
+                </div>
+                <div class="service-card reveal" style="transition-delay:0.08s">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-birthday-cake service-icon"></i>
+                    </div>
+                    <h3 class="service-card-title">Event Planning</h3>
+                    <p class="service-card-description">Full-service event coordination from concept to execution, ensuring a seamless experience.</p>
+                    <ul class="service-features-list">
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Venue selection
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Theme development
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Vendor coordination
+                        </li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more">Learn more →</a>
+                </div>
+                <div class="service-card reveal" style="transition-delay:0.16s">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-music service-icon"></i>
+                    </div>
+                    <h3 class="service-card-title">Entertainment</h3>
+                    <p class="service-card-description">Complete entertainment solutions including live bands, performers, and audio-visual setups.</p>
+                    <ul class="service-features-list">
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Talent booking
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Sound systems
+                        </li>
+                        <li class="service-feature-item">
+                            <i class="fas fa-check service-feature-check"></i>
+                            Lighting design
+                        </li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Moments We've Made</span>
+                <h2 class="section-title">Our Gallery</h2>
+                <span class="section-divider" aria-hidden="true"></span>
+                <p class="section-subtitle">A glimpse into some of our most memorable events and setups.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-src="img/ballon_1.jpg">
+                    <img src="img/ballon_1.jpg" alt="Balloon styling setup" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E✨ Balloon%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Balloon Décor</span></div>
+                </div>
+                <div class="gallery-item" data-src="img/wine.jpg">
+                    <img src="img/wine.jpg" alt="Wine and table service" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E🍷 Wine%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Table Service</span></div>
+                </div>
+                <div class="gallery-item" data-src="img/ballon_2.jpg">
+                    <img src="img/ballon_2.jpg" alt="Balloon arch setup" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E🎈 Arch%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Event Styling</span></div>
+                </div>
+                <div class="gallery-item" data-src="img/bday.jpg">
+                    <img src="img/bday.jpg" alt="Birthday celebration" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E🎂 Birthday%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Birthday Celebration</span></div>
+                </div>
+                <div class="gallery-item" data-src="img/christening.jpg">
+                    <img src="img/christening.jpg" alt="Christening event" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E✝️ Christening%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Christening</span></div>
+                </div>
+                <div class="gallery-item" data-src="img/table_chair2.jpg">
+                    <img src="img/table_chair2.jpg" alt="Table and chair setup" class="gallery-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23E7CE8C%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Inter%22 fill=%22%237C2D2D%22 text-anchor=%22middle%22 dy=%22.3em%22%3E🪑 Setup%3C/text%3E%3C/svg%3E'">
+                    <div class="gallery-caption"><span>Seating &amp; Setup</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">✕</span>
+        <img id="lightbox-img" src="" alt="Enlarged view">
+    </div>
+
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Kind Words</span>
+                <h2 class="section-title-reviews">Customer Reviews</h2>
+                <span class="section-divider" aria-hidden="true"></span>
+                <p class="section-subtitle-reviews">Read what our clients say about their experiences with us.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="reviews-card reveal">
+                    <i class="fas fa-quote-right reviews-quote-icon" aria-hidden="true"></i>
+                    <div class="reviews-header">
+                        <div class="reviews-author-info">
+                            <div class="reviews-avatar-wrapper">
+                                <img src="img/RS.jpeg" alt="Raymond Santiago" class="reviews-avatar" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle fill=%22%23B8912F%22 cx=%2250%22 cy=%2250%22 r=%2245%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-family=%22Inter%22 fill=%22white%22 text-anchor=%22middle%22 font-size=%2230%22%3ERS%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="reviews-author-name">Raymond Santiago</h4>
+                                <p class="reviews-author-role">Wedding Client</p>
+                            </div>
+                        </div>
+                        <div class="reviews-date">June 15, 2023</div>
+                    </div>
+                    <div class="reviews-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="reviews-title">Perfect Wedding Experience</h3>
+                    <p class="reviews-text">"JB Nav Enterprise made our wedding day absolutely perfect. The food was exquisite, the setup was breathtaking, and their team handled everything seamlessly."</p>
+                </div>
+                <div class="reviews-card reveal" style="transition-delay:0.08s">
+                    <i class="fas fa-quote-right reviews-quote-icon" aria-hidden="true"></i>
+                    <div class="reviews-header">
+                        <div class="reviews-author-info">
+                            <div class="reviews-avatar-wrapper">
+                                <img src="img/JV.jpeg" alt="John Kenneth Velasco" class="reviews-avatar" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle fill=%22%23B8912F%22 cx=%2250%22 cy=%2250%22 r=%2245%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-family=%22Inter%22 fill=%22white%22 text-anchor=%22middle%22 font-size=%2230%22%3EJV%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="reviews-author-name">John Kenneth Velasco</h4>
+                                <p class="reviews-author-role">Corporate Event</p>
+                            </div>
+                        </div>
+                        <div class="reviews-date">April 2, 2023</div>
+                    </div>
+                    <div class="reviews-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="reviews-title">Exceptional Conference</h3>
+                    <p class="reviews-text">"Our annual conference was elevated to a whole new level thanks to JB Nav. Their attention to detail and professional service exceeded all our expectations."</p>
+                </div>
+                <div class="reviews-card reveal" style="transition-delay:0.16s">
+                    <i class="fas fa-quote-right reviews-quote-icon" aria-hidden="true"></i>
+                    <div class="reviews-header">
+                        <div class="reviews-author-info">
+                            <div class="reviews-avatar-wrapper">
+                                <img src="img/GG.jpg" alt="George Anthony Gonzaga" class="reviews-avatar" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle fill=%22%23B8912F%22 cx=%2250%22 cy=%2250%22 r=%2245%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-family=%22Inter%22 fill=%22white%22 text-anchor=%22middle%22 font-size=%2230%22%3EGG%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="reviews-author-name">George Anthony Gonzaga</h4>
+                                <p class="reviews-author-role">Birthday Party</p>
+                            </div>
+                        </div>
+                        <div class="reviews-date">March 10, 2023</div>
+                    </div>
+                    <div class="reviews-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="reviews-title">Dream Birthday Party</h3>
+                    <p class="reviews-text">"My daughter's sweet 16 was a dream come true! The decorations, food, and entertainment were all top-notch. JB Nav took care of everything so I could enjoy the party too."</p>
+                </div>
+            </div>
+            <div class="read-more-reviews-container">
+                <a href="#" class="read-more-reviews-btn">
+                    <i class="fas fa-star read-more-reviews-icon"></i> Read More Reviews
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="book-section">
+        <div class="container">
+            <div class="book-card reveal">
+                <div class="book-card-flex">
+                    <div class="book-card-left">
+                        <h2 class="book-card-title">Need Help Planning Your Event?</h2>
+                        <p class="book-card-description">Our expert team is ready to help you create the perfect event. Tell us about your vision and we'll make it a reality.</p>
+                        <div class="book-features-group">
+                            <div class="book-feature-item">
+                                <i class="fas fa-check-circle book-feature-icon"></i>
+                                <div>
+                                    <h4 class="book-feature-title">Free Consultation</h4>
+                                    <p class="book-feature-text">Discuss your ideas with our event specialists</p>
+                                </div>
+                            </div>
+                            <div class="book-feature-item">
+                                <i class="fas fa-check-circle book-feature-icon"></i>
+                                <div>
+                                    <h4 class="book-feature-title">Customized Packages</h4>
+                                    <p class="book-feature-text">Tailored solutions for your specific needs</p>
+                                </div>
+                            </div>
+                            <div class="book-feature-item">
+                                <i class="fas fa-check-circle book-feature-icon"></i>
+                                <div>
+                                    <h4 class="book-feature-title">Stress-Free Planning</h4>
+                                    <p class="book-feature-text">We handle all the details so you don't have to</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-card-right">
+                        <h3 class="book-form-title">Book Now</h3>
+                        <form id="quoteForm" class="book-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name *</label>
+                                <input type="text" id="name" class="form-input" placeholder="Full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" class="form-input" placeholder="@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number *</label>
+                                <input type="tel" id="phone" class="form-input" placeholder="+63 912 345 6789" required pattern="^\+63\d{10}$" title="Format: +63 followed by 10 digits">
+                            </div>
+                            <div class="form-group">
+                                <label for="event-type" class="form-label">Event Type *</label>
+                                <select id="event-type" class="form-input" required>
+                                    <option value="">Select event type</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="birthday">Birthday Party</option>
+                                    <option value="corporate">Corporate Event</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date" class="form-label">Event Date *</label>
+                                <input type="date" id="date" class="form-input" required>
+                            </div>
+                            <button type="submit" class="form-submit-btn">Submit Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Let's Talk</span>
+                <h2 class="section-title-contact">Contact Us</h2>
+                <span class="section-divider" aria-hidden="true"></span>
+                <p class="section-subtitle-contact">Ready to start planning your event? Get in touch with our team today.</p>
+            </div>
+            <div class="contact-content-wrapper">
+                <div class="contact-info-column reveal reveal-left">
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Contact Information</h3>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-wrapper">
+                                <img src="img/loc.svg" alt="Address Icon" class="contact-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23B8912F%22%3E%3Cpath d=%22M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z%22/%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-heading">Address</h4>
+                                <p class="contact-detail-text">471 Don P. Campos Ave., Brgy. Sabang, Dasmariñas, Cavite.</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-wrapper">
+                                <img src="img/contact.svg" alt="Contact Icon" class="contact-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23B8912F%22%3E%3Cpath d=%22M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z%22/%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-heading">Contact</h4>
+                                <p class="contact-detail-text">(046) 494 6597</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-wrapper">
+                                <img src="img/email.svg" alt="Email Icon" class="contact-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23B8912F%22%3E%3Cpath d=%22M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z%22/%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-heading">Email</h4>
+                                <p class="contact-detail-text">jinanenterprises@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-wrapper">
+                                <img src="img/time.svg" alt="Time Icon" class="contact-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23B8912F%22%3E%3Cpath d=%22M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z%22/%3E%3C/svg%3E'">
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-heading">Hours</h4>
+                                <p class="contact-detail-text">Monday - Friday: 9am - 6pm</p>
+                                <p class="contact-detail-text">Saturday: 10am - 4pm</p>
+                                <p class="contact-detail-text">Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="social-links-container">
+                            <div class="social-links-group">
+                                <a href="#" class="social-icon-wrapper">
+                                    <img src="img/fb.svg" alt="Facebook" class="social-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22white%22%3E%3Cpath d=%22M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z%22/%3E%3C/svg%3E'">
+                                </a>
+                                <a href="#" class="social-icon-wrapper">
+                                    <img src="img/ig.svg" alt="Instagram" class="social-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22white%22%3E%3Cpath d=%22M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z%22/%3E%3C/svg%3E'">
+                                </a>
+                                <a href="#" class="social-icon-wrapper">
+                                    <img src="img/tiktok.svg" alt="TikTok" class="social-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22white%22%3E%3Cpath d=%22M16.6 5.82s.51.5 0 0A4.278 4.278 0 0115.54 3h-3.09v12.4a2.592 2.592 0 01-2.59 2.5 2.592 2.592 0 010-5.18 2.57 2.57 0 01.64.09V9.83a5.78 5.78 0 00-3.62.33 5.81 5.81 0 00-3.28 4.54 5.79 5.79 0 001.06 4.44 5.78 5.78 0 004.21 2.34 5.78 5.78 0 004.48-9.55V8.52a6.64 6.64 0 003.8 1.19V6.65a3.34 3.34 0 01-1.16-.83z%22/%3E%3C/svg%3E'">
+                                </a>
+                                <a href="#" class="social-icon-wrapper">
+                                    <img src="img/linkedin.svg" alt="LinkedIn" class="social-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22white%22%3E%3Cpath d=%22M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z%22/%3E%3C/svg%3E'">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-column reveal reveal-right">
+                    <div class="contact-form-card">
+                        <h3 class="contact-form-title">Send Us a Message</h3>
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Your Name *</label>
+                                <input type="text" id="contact-name" class="form-input" placeholder="Full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Email Address *</label>
+                                <input type="email" id="contact-email" class="form-input" placeholder="@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject" class="form-label">Subject *</label>
+                                <input type="text" id="contact-subject" class="form-input" placeholder="Event inquiry" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message *</label>
+                                <textarea id="contact-message" rows="5" class="form-textarea" placeholder="Tell us about your event..." required></textarea>
+                            </div>
+                            <button type="submit" class="form-submit-btn-contact">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content-wrapper">
+                <div class="footer-brand-info">
+                    <div class="footer-brand">
+                        <img src="img/logo.png" alt="JB Nav Enterprise Logo" class="footer-logo-img">
+                        <span class="footer-brand-text">JB Nav Enterprise</span>
+                    </div>
+                    <p class="footer-tagline">Creating unforgettable experiences since 2010.</p>
+                </div>
+                <div class="footer-links-group">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#gallery" class="footer-link">Gallery</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-copyright-section">
+                <p class="footer-copyright">&copy; JB Nav Enterprise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
