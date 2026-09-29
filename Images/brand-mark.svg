@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">JB Nav Enterprise catering emblem</title>
+  <circle cx="40" cy="40" r="39" fill="#faf4e8"/>
+  <circle cx="40" cy="40" r="35" fill="none" stroke="#b39560" stroke-width="1"/>
+  <g fill="none" stroke="#642b38" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 20v3m-4 0h8M22 45h36M25 41c1-9 7-16 15-16s14 7 15 16" stroke-width="2"/>
+    <path d="M19 48h42" stroke="#b39560" stroke-width="1.5"/>
+  </g>
+  <text x="40" y="65" text-anchor="middle" fill="#642b38" font-family="Georgia,serif" font-size="15" letter-spacing="2">JB</text>
+</svg>
